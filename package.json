@@ -7,7 +7,8 @@
     "dev": "webpack serve",
     "server": "json-server server.json --port 3333",
     "build": "cross-env NODE_ENV=production webpack",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "commit": "git-cz"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -23,14 +24,19 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@types/react-dom": "^17.0.0",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
+    "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
+    "cz-conventional-changelog": "3.3.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
     "node-sass": "^7.0.0",
     "react-app-polyfill": "^2.0.0",
@@ -42,5 +48,10 @@
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^4.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
