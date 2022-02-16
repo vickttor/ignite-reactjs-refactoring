@@ -3,13 +3,33 @@
   width: 100%;
 
   margin: 0 auto;
+  @media (max-width: 715px) {
+    & header span.category {
+      font-size: 1.75rem;
+    }
+    @media (max-width: 585px) {
+      & header span.category {
+        font-size: 1.2rem;
+      }
+      & header {
+        gap: 1.5rem;
+        flex-direction: column;
+      }
+    }
+  }
 }
 
 header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+
   span.category {
     display: block;
-    margin-top: 2rem;
-
+    text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
     color: var(--gray);
@@ -18,6 +38,12 @@ header {
   span {
     color: var(--white);
   }
+
+  span.moviesAmount {
+    span {
+      color: var(--coral);
+    }
+  }
 }
 
 main {
@@ -25,9 +51,11 @@ main {
   margin-top: 5.625rem;
 
   .movies-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4.75rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 3rem;
     list-style: none;
+    flex-wrap: wrap;
   }
 }

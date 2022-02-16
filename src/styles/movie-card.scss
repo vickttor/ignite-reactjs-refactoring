@@ -4,6 +4,7 @@
   img {
     width: 14.31rem;
     height: 21.25rem;
+    border-radius: 2rem;
   }
 
   > div {
@@ -16,40 +17,46 @@
     display: flex;
     justify-content: center;
 
-    background: rgba(31, 34, 41, 0.5);
+    cursor: pointer;
+
+    background: rgba(31, 34, 41, 0.3);
+
+    &:hover {
+      background: rgba(31, 34, 41, 0.5);
+    }
 
     .movie-info {
       max-width: 12.31rem;
       width: 100%;
-      
+
       display: flex;
       flex-direction: column;
-  
+      justify-content: flex-end;
       > span {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 1rem;
         color: #fbfbfb;
-  
-        margin-top: auto;
-        margin-bottom: 0.5rem;
+
+        margin-bottom: 1rem;
+        text-shadow: 3px 2px 3px #181818;
       }
-  
+
       .meta {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-  
+
         margin-bottom: 1rem;
-  
+
         div {
           display: flex;
           align-items: center;
-  
+
           font-weight: 600;
           color: var(--gray);
-  
+          text-shadow: 3px 2px 3px #181818;
           svg {
-            color: #FAE800;
+            color: var(--coral);
             margin-right: 0.5rem;
           }
         }
