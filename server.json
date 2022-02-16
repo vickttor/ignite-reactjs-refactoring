@@ -508,47 +508,7 @@
       "Website": "N/A",
       "Response": "True"
     },
-    {
-      "Genre_id": 4,
-      "Title": "The Blue Lagoon",
-      "Year": "1980",
-      "Rated": "R",
-      "Released": "02 Jul 1980",
-      "Runtime": "104 min",
-      "Genre": "Adventure, Drama, Romance",
-      "Director": "Randal Kleiser",
-      "Writer": "Henry De Vere Stacpoole (based on the novel by), Douglas Day Stewart (screenplay by)",
-      "Actors": "Brooke Shields, Christopher Atkins, Leo McKern, William Daniels",
-      "Plot": "In the Victorian period, two children are shipwrecked on a tropical island in the South Pacific. With no adults to guide them, the two make a simple life together, unaware that sexual maturity will eventually intervene.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "Nominated for 1 Oscar. Another 4 wins & 7 nominations.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BOWU2ZDIxY2UtNzM5NS00MWUwLTkxN2QtMmI3NDZkNTA2OTYxXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "10/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "8%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "31/100"
-        }
-      ],
-      "Metascore": "31",
-      "imdbRating": "5.8",
-      "imdbVotes": "63,278",
-      "imdbID": "tt0080453",
-      "Type": "movie",
-      "DVD": "16 Apr 2012",
-      "BoxOffice": "$58,853,106",
-      "Production": "Columbia Pictures",
-      "Website": "N/A",
-      "Response": "True"
-    },
+
     {
       "Genre_id": 4,
       "Title": "Gone Girl",
@@ -940,39 +900,6 @@
       "DVD": "23 Feb 2018",
       "BoxOffice": "$84,410,380",
       "Production": "Blue Sky Studios",
-      "Website": "N/A",
-      "Response": "True"
-    },
-    {
-      "Genre_id": 6,
-      "Title": "Pets United",
-      "Year": "2019",
-      "Rated": "TV-Y7",
-      "Released": "11 Sep 2020",
-      "Runtime": "89 min",
-      "Genre": "Animation, Adventure, Comedy",
-      "Director": "Reinhard Klooss",
-      "Writer": "Reinhard Klooss, Reinhard Klooss (based on the story by), Oliver Huzly (based on the story by)",
-      "Actors": "Patrick Roche, Natalie Dormer, Felix Auer, Jeff Burrell",
-      "Plot": "A group of spoilt, selfish pets led by glamour cat Belle are stranded in their luxury hangout 'Pampered Pets,' when the machines that run Robo City, the hypermodern metropolis that they live in, go wild and take over.",
-      "Language": "English",
-      "Country": "Germany, China, UK",
-      "Awards": "N/A",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNmU2YTEwODktZDFlNC00YWJmLTk0NjEtMzZjMjM4Y2E3NjdiXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "3.8/10"
-        }
-      ],
-      "Metascore": "N/A",
-      "imdbRating": "3.8",
-      "imdbVotes": "1,858",
-      "imdbID": "tt11276598",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
       "Website": "N/A",
       "Response": "True"
     }
