@@ -25,6 +25,15 @@ interface MovieProps {
     Value: string;
   }>;
   Runtime: string;
+  Director: string;
+  Writer: string;
+  Actors: string;
+  Plot: string;
+  Language: string;
+  Country: string;
+  Year: string;
+  Released: string;
+  Production: string;
 }
 
 export function App() {
