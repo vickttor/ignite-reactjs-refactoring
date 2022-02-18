@@ -1,5 +1,14 @@
-import { render } from 'react-dom'
+import { render } from "react-dom";
+import { App } from "./App";
+import { Route, Routes, MemoryRouter } from "react-router-dom";
+import Movie from "./components/movies/movie";
 
-import { App } from './App'
-
-render(<App />, document.getElementById('root'))
+render(
+  <MemoryRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/movies/:movie" element={<Movie />} />
+    </Routes>
+  </MemoryRouter>,
+  document.getElementById("root")
+);
